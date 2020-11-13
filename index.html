@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Influenswer | Get paid to answer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <nav class="d-flex align-items-center space-between py-30">
+            <div class="logo">
+              <a href="#"
+                ><img src="./assets/img/influenswer.svg" alt="Influenswer Logo"
+              /></a>
+            </div>
+            <div class="btn-sign-in">
+              <a class="btn bg-primary text-white segoe-ui-bold" href="#"
+                >Sign In</a
+              >
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div id="banner" class="py-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="segoe-ui-bold text-secondary mb-20">
+              <span class="text-primary">Get paid</span> to answer<br />your
+              <span id="typedBanner"></span>
+            </h1>
+            <p class="segoe-ui-regular mb-30">
+              Let your true followers ask you questions. Simply answer their<br />
+              questions and get paid.
+              <span class="text-dark-gray segoe-ui-bold">
+                You could make a living without<br />
+                sponsorships and ads!</span
+              >
+            </p>
+            <a class="btn bg-primary text-white segoe-ui-bold mr-5" href="#"
+              >Request to join</a
+            >
+            <a class="btn bg-primary-light text-primary segoe-ui-bold" href="#"
+              >Live demo</a
+            >
+          </div>
+          <div class="col-lg-6">
+            <div class="banner-img border-gray">
+              <img
+                src="./assets/img/hero-demo-video.png"
+                alt="Banner Demo Video"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CDN JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <!-- Typed.js -->
+    <script>
+      var typed = new Typed("#typedBanner", {
+        strings: ["followers", "subscribers", "listeners", "audience", "fans"],
+        smartBackspace: true, // Default value
+      });
+    </script>
+  </body>
+</html>
